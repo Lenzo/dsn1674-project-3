@@ -1,21 +1,24 @@
 /*
 DIV CLASSES
-section = website sections
-course = menu course sections
-award = award block
-back-top = back to top 
-
-COURSE DIV CLASSES
-appetizer = appetizers
+app = appetizers
 salad = salades and low carb plates
-pitas = pitas
+pita = pitas
 plate = signature plates
+side = side dishes
 dessert = desserts
+top = back to top
 
-FIGURE CLASSES
-menu-img = small thumbnails for course divs
+P CLASSES
+about
+awards
+reviews
+hours
+address
 */
 
-Kiria Piata — Signature Plates
-Sibliromatico Fayito — Side Dishes
-Glikismata — Desserts
+/*
+COLOURS
+petal   = #E9DBD6 = rgb(233,219,214)
+wine    = #3C0017 = rgb(60,0,23)
+stained = #704657 = rgb(112,70,87)
+*/
