@@ -87,13 +87,15 @@ h1{
 	background-image: url("../images/olives.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	position: absolute;
 	margin-bottom: -5.5em;
+	width: 100%;
+	height: 14em;
 }
-.banner p{
-	position: relative;
-	top: -8em;
+h2{
+	top: -5em;
 	margin-left: 1em;
+	position: relative;
+	font-size: 120%;
 }
 
 em{
