@@ -7,19 +7,68 @@ plate = signature plates
 side = side dishes
 dessert = desserts
 top = back to top
+reviewer = reviewer name and date
 
 P CLASSES
 about
 awards
-reviews = whole the review div
-review = individual review
+
 hours
 address
 */
 
 /*
 COLOURS
-petal   = #E9DBD6 = rgb(233,219,214)
+petal   = #d4c7cc
 wine    = #3C0017 = rgb(60,0,23)
 stained = #704657 = rgb(112,70,87)
 */
+
+/*-----------------------------GENERAL------------------------------*/
+
+html{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+
+body{
+	margin: 0;
+}
+
+img{
+	width: 100%;
+	padding: 0;
+}
+
+figure{
+	margin: 0;
+}
+
+/*-----------------------------HEADER-------------------------------*/
+
+header{
+	background-color: #3C0017;
+	color: white; 
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+h1{
+	margin: 0;
+}
+
+/*------------------------------BANNER------------------------------*/
+
+.banner{
+	background-image: url("../images/olives.jpg");
+	padding-top: 7em;
+	font-weight:  900;
+	font-size: 2em
+}
+
+/*------------------------------COURSES------------------------------*/
+
+figcaption{
+	background-color: #d4c7cc;
+	color: white;
+}
