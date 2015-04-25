@@ -131,14 +131,8 @@ em{
 
 /*------------------------------COURSES------------------------------*/
 
-.course{
-	font-size: 1.5em;
-	position: relative;
-}
-
 h3{
 	background-color: #3C0017;
-	opacity: .22;
 	padding: 0;
 }
 
@@ -148,6 +142,7 @@ h3{
 
 figcaption{
 	colour: white;
+	opacity: .22;
 }
 
 figure{
