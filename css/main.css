@@ -132,8 +132,10 @@ em{
 /*------------------------------COURSES------------------------------*/
 
 h3{
-	background-color: #3C0017;
+	background-color: #d4c7cc;
 	padding: 0;
+	color: #3C0017;
+	font-weight: 400;
 }
 
 .course div{
@@ -142,12 +144,9 @@ h3{
 
 figcaption{
 	colour: white;
-	opacity: .22;
 }
 
-figure{
-	position: absolute;
-}
+
 
 figure div{
 	font-weight: 400;
@@ -201,8 +200,34 @@ strong{
 	padding: 0 1em 1em 1em;
 }
 
+/*-------------------HOURS AND MAP---------------------*/
 
+.hours{
+	background-color: #d4c7cc;
+	margin: 0;
+	padding: 1em;
+}
 
+/*------------------------------FOOTER------------------------------*/
+
+.top{
+	background-color: #704657;
+
+}
+
+footer{
+	background-color: #3C0017;
+	color: white;
+}
+
+footer img{
+	width: 25%;
+	margin: 0;
+}
+
+.top p{
+	margin: 0;
+}
 
 
 
