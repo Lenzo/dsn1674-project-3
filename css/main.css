@@ -30,6 +30,7 @@ html{
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	box-sizing: border-box;
+	font-size: 1em
 }
 
 *, *::before, *::after {
@@ -83,8 +84,8 @@ h1{
 	color: #3C0017;
 }
 
-.banner span{
-	font-style: 400italic;
+em{
+	font-wieght: 900italic;
 }
 
 /*------------------------------BUTTONS------------------------------*/
@@ -121,12 +122,22 @@ h1{
 figcaption{
 	background-color: #d4c7cc;
 	color: #704657;
+	font-size: 1.5em;
+}
+
+figure div{
+	font-weight: 400;
+	font-size: 1rem;
 }
 
 h3{
 	margin:  0;
 	padding: 2em .5em 1em .5em;
 	 
+}
+
+i{
+	color: white;
 }
 
 /*------------------------------REVIEWS------------------------------*/
@@ -153,7 +164,7 @@ li{
 	margin-bottom: 1em;
 }
 
-span{
+strong{
 	font-weight: 900;
 }
 
