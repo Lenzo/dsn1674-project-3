@@ -29,7 +29,13 @@ stained = #704657 = rgb(112,70,87)
 html{
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
+	box-sizing: border-box;
 }
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
 
 body{
 	margin: 0;
@@ -50,6 +56,10 @@ a{
 	font-weight: 900;
 	font-size: 2em;
 }
+
+p{
+	line-height: 1.5em;
+}
 /*-----------------------------HEADER-------------------------------*/
 
 header{
@@ -67,7 +77,6 @@ h1{
 /*------------------------------BANNER------------------------------*/
 
 .banner{
-	background-image: url("../images/olives.jpg");
 	padding-top: 7em;
 	font-weight:  900;
 	font-size: 2em;
@@ -111,14 +120,51 @@ h1{
 
 figcaption{
 	background-color: #d4c7cc;
-	color: white;
+	color: #704657;
 }
 
 h3{
 	margin:  0;
+	padding: 2em .5em 1em .5em;
+	 
+}
+
+/*------------------------------REVIEWS------------------------------*/
+
+h4{
+	font-size: 2em;
+	background-color: #704657;
+	color: white;
+	margin: 0;
+	padding: .5em;
+	border-top: .5em solid #3C0017;;
+}
+
+.reviews{
+	background-color: #d4c7cc;
+	margin: 0;
+	padding: 1em;
+}
+
+li{
+	list-style-type:  none;
+	color: #3C0017;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+span{
+	font-weight: 900;
 }
 
 
+.awards{
+	background-color: #704657;
+	color: white;
+	margin: 0;
+	padding-bottom: 1em;
+	padding: 0 1em 1em 1em;
+}
 
 
 
