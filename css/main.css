@@ -71,8 +71,10 @@ header{
 }
 
 h1{
-	font-size: 400;
+	font-weight: 400;
 	margin: 0;
+	font-size: 1em;
+	padding: 1em;
 }
 
 /*------------------------------BANNER------------------------------*/
@@ -82,10 +84,20 @@ h1{
 	font-weight:  900;
 	font-size: 2em;
 	color: #3C0017;
+	background-image: url("../images/olives.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-bottom: -5.5em;
+}
+.banner p{
+	position: relative;
+	top: -8em;
+	margin-left: 1em;
 }
 
 em{
-	font-wieght: 900italic;
+	font-weight: 900italic;
 }
 
 /*------------------------------BUTTONS------------------------------*/
@@ -119,10 +131,27 @@ em{
 
 /*------------------------------COURSES------------------------------*/
 
-figcaption{
-	background-color: #d4c7cc;
-	color: #704657;
+.course{
 	font-size: 1.5em;
+	position: relative;
+}
+
+h3{
+	background-color: #3C0017;
+	opacity: .22;
+	padding: 0;
+}
+
+.course div{
+	color: white;
+}
+
+figcaption{
+	colour: white;
+}
+
+figure{
+	position: absolute;
 }
 
 figure div{
@@ -132,7 +161,7 @@ figure div{
 
 h3{
 	margin:  0;
-	padding: 2em .5em 1em .5em;
+	padding: 1em .5em 1em .5em;
 	 
 }
 
